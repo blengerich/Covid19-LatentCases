@@ -11,4 +11,4 @@ All of the experiments can be found in `estimate_total_cases.ipynb`. This notebo
 
 A few representative plots are shown below; results for all 50 states can be found in the `results/` directory.
 
-![NY](https://github.com/blengerich/Covid19-LatentCases/raw/master/results/NY.pdf)
+![NY](https://raw.githubusercontent.com/blengerich/Covid19-LatentCases/597583604c8fd15e7d414327a361b2ef76e4cac2/results/NY.pdf)
