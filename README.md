@@ -13,3 +13,4 @@ A few representative plots are shown below; results for all 50 states can be fou
 
 <img src="https://github.com/blengerich/Covid19-LatentCases/raw/master/results/NY.png" width="400px" alt="New York"><img src="https://github.com/blengerich/Covid19-LatentCases/raw/master/results/PA.png" width="400px" alt="Pennsylvania">
 <img src="https://github.com/blengerich/Covid19-LatentCases/raw/master/results/MN.png" width="400px" alt="Minnesota"><img src="https://github.com/blengerich/Covid19-LatentCases/raw/master/results/AK.png" width="400px" alt="Alaska">
+<img src="https://github.com/blengerich/Covid19-LatentCases/raw/master/results/legend.png" width="350px" alt="Legend">
