@@ -1,9 +1,8 @@
 # Covid19-LatentCases
 
-Code to estimate the total number of SARS-CoV-2 infections based on limited diagnostic tests. 
-This model uses a single free parameter *c* to model the relative propensity of testing SARS-CoV-2-infected individuals compared to non-infected individuals.
+Code to estimate the total number of SARS-CoV-2 infections based on limited diagnostic tests. A blog post describing details of this project can be found [here](https://blog.ml.cmu.edu/2020/06/12/understanding-the-prevalence-of-sars-cov-2-with-limited-diagnostic-testing-capacity/).
 
-We use two strategies to estimate this free parameter *c*:
+This model uses a single free parameter *c* to model the relative propensity of testing SARS-CoV-2-infected individuals compared to non-infected individuals. We use two strategies to estimate this free parameter *c*:
 - Seroprevalence studies
 - Symptomatic Rates
 
