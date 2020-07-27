@@ -12,5 +12,5 @@ dates = [get_date_format(d, 3, 2020) for d in range(16, 32)] # March dates (befo
 dates.extend([get_date_format(d, 4, 2020) for d in range(1, 31)]) # April dates
 dates.extend([get_date_format(d, 5, 2020) for d in range(1, 32)]) # May dates
 dates.extend([get_date_format(d, 6, 2020) for d in range(1, 31)]) # June dates
-dates.extend([get_date_format(d, 7, 2020) for d in range(1, datetime.now().day+1)]) # July dates
+dates.extend([get_date_format(d, 7, 2020) for d in range(1, datetime.now().day)]) # July dates
 readable_dates = list(map(readable_date, dates))
