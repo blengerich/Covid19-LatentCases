@@ -13,5 +13,6 @@ dates.extend([get_date_format(d, 4, 2020) for d in range(1, 31)]) # April dates
 dates.extend([get_date_format(d, 5, 2020) for d in range(1, 32)]) # May dates
 dates.extend([get_date_format(d, 6, 2020) for d in range(1, 31)]) # June dates
 dates.extend([get_date_format(d, 7, 2020) for d in range(1, 32)]) # July dates
-dates.extend([get_date_format(d, 8, 2020) for d in range(1, datetime.now().day)]) # August dates
+dates.extend([get_date_format(d, 8, 2020) for d in range(1, 32)]) # August dates
+dates.extend([get_date_format(d, 9, 2020) for d in range(1, datetime.now().day+(datetime.now().hour > 18))]) # September Dates
 readable_dates = list(map(readable_date, dates))
